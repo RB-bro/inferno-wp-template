@@ -3,7 +3,7 @@
 
 # notes
 
-[offside js](http://github.com/shanewholloway/babel-plugin-offside-jstest)
+[offside js](http://github.com/shanewholloway/babel-plugin-offside-js)
 
 
 start with 
