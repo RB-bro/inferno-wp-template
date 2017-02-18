@@ -42,6 +42,14 @@ align-text@^0.1.1, align-text@^0.1.3:
     longest "^1.0.1"
     repeat-string "^1.5.2"
 
+alphanum-sort@^1.0.1, alphanum-sort@^1.0.2:
+  version "1.0.2"
+  resolved "http://sr-npm-registry:5001/alphanum-sort/-/alphanum-sort-1.0.2/97a1119649b211ad33691d9f9f486a8ec9fbe0a3.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
+
+amdefine@>=0.0.4:
+  version "1.0.1"
+  resolved "http://sr-npm-registry:5001/amdefine/-/amdefine-1.0.1/4a5282ac164729e93619bcfd3ad151f817ce91f5.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
+
 ansi-html@0.0.7:
   version "0.0.7"
   resolved "http://sr-npm-registry:5001/ansi-html/-/ansi-html-0.0.7/813584021962a9e9e6fd039f940d12f56ca7859e.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"
@@ -71,6 +79,12 @@ are-we-there-yet@~1.1.2:
   dependencies:
     delegates "^1.0.0"
     readable-stream "^2.0.0 || ^1.1.13"
+
+argparse@^1.0.7:
+  version "1.0.9"
+  resolved "http://sr-npm-registry:5001/argparse/-/argparse-1.0.9/73d83bc263f86e97f8cc4f6bae1b0e90a7d22c86.tgz#73d83bc263f86e97f8cc4f6bae1b0e90a7d22c86"
+  dependencies:
+    sprintf-js "~1.0.2"
 
 arr-diff@^2.0.0:
   version "2.0.0"
@@ -142,6 +156,17 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "http://sr-npm-registry:5001/asynckit/-/asynckit-0.4.0/c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
+autoprefixer@^6.3.1:
+  version "6.7.3"
+  resolved "http://sr-npm-registry:5001/autoprefixer/-/autoprefixer-6.7.3/bc2c28018e9a226f24f0ded36ce81014dccec817.tgz#bc2c28018e9a226f24f0ded36ce81014dccec817"
+  dependencies:
+    browserslist "^1.7.2"
+    caniuse-db "^1.0.30000623"
+    normalize-range "^0.1.2"
+    num2fraction "^1.2.2"
+    postcss "^5.2.13"
+    postcss-value-parser "^3.2.3"
+
 aws-sign2@~0.6.0:
   version "0.6.0"
   resolved "http://sr-npm-registry:5001/aws-sign2/-/aws-sign2-0.6.0/14342dd38dbcc94d0e5b87d763cd63612c0e794f.tgz#14342dd38dbcc94d0e5b87d763cd63612c0e794f"
@@ -150,7 +175,7 @@ aws4@^1.2.1:
   version "1.6.0"
   resolved "http://sr-npm-registry:5001/aws4/-/aws4-1.6.0/83ef5ca860b2b32e4a0deedee8c771b9db57471e.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-babel-code-frame@^6.22.0:
+babel-code-frame@^6.11.0, babel-code-frame@^6.22.0:
   version "6.22.0"
   resolved "http://sr-npm-registry:5001/babel-code-frame/-/babel-code-frame-6.22.0/027620bee567a88c32561574e7fd0801d33118e4.tgz#027620bee567a88c32561574e7fd0801d33118e4"
   dependencies:
@@ -685,7 +710,7 @@ babylon@^6.11.0, babylon@^6.15.0:
   version "6.15.0"
   resolved "http://sr-npm-registry:5001/babylon/-/babylon-6.15.0/ba65cfa1a80e1759b0e89fb562e27dccae70348e.tgz#ba65cfa1a80e1759b0e89fb562e27dccae70348e"
 
-balanced-match@^0.4.1:
+balanced-match@^0.4.1, balanced-match@^0.4.2:
   version "0.4.2"
   resolved "http://sr-npm-registry:5001/balanced-match/-/balanced-match-0.4.2/cb3f3e3c732dc0f01ee70b403f302e61d7709838.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
 
@@ -805,7 +830,7 @@ browserify-zlib@^0.1.4:
   dependencies:
     pako "~0.2.0"
 
-browserslist@^1.4.0:
+browserslist@^1.0.1, browserslist@^1.4.0, browserslist@^1.5.2, browserslist@^1.7.2:
   version "1.7.3"
   resolved "http://sr-npm-registry:5001/browserslist/-/browserslist-1.7.3/25ead9c917b278ad668b83f39c8025697797b2ab.tgz#25ead9c917b278ad668b83f39c8025697797b2ab"
   dependencies:
@@ -855,7 +880,16 @@ camelcase@^3.0.0:
   version "3.0.0"
   resolved "http://sr-npm-registry:5001/camelcase/-/camelcase-3.0.0/32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
 
-caniuse-db@^1.0.30000623:
+caniuse-api@^1.5.2:
+  version "1.5.3"
+  resolved "http://sr-npm-registry:5001/caniuse-api/-/caniuse-api-1.5.3/5018e674b51c393e4d50614275dc017e27c4a2a2.tgz#5018e674b51c393e4d50614275dc017e27c4a2a2"
+  dependencies:
+    browserslist "^1.0.1"
+    caniuse-db "^1.0.30000346"
+    lodash.memoize "^4.1.0"
+    lodash.uniq "^4.3.0"
+
+caniuse-db@^1.0.30000346, caniuse-db@^1.0.30000623:
   version "1.0.30000624"
   resolved "http://sr-npm-registry:5001/caniuse-db/-/caniuse-db-1.0.30000624/554b87547895e36f5fe128f4b7448a2ea5bf2213.tgz#554b87547895e36f5fe128f4b7448a2ea5bf2213"
 
@@ -870,7 +904,7 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-chalk@^1.1.0, chalk@^1.1.1:
+chalk@^1.1.0, chalk@^1.1.1, chalk@^1.1.3:
   version "1.1.3"
   resolved "http://sr-npm-registry:5001/chalk/-/chalk-1.1.3/a8115c55e4a702fe4d150abd3872822a7e09fc98.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
   dependencies:
@@ -901,6 +935,12 @@ cipher-base@^1.0.0, cipher-base@^1.0.1:
   dependencies:
     inherits "^2.0.1"
 
+clap@^1.0.9:
+  version "1.1.2"
+  resolved "http://sr-npm-registry:5001/clap/-/clap-1.1.2/316545bf22229225a2cecaa6824cd2f56a9709ed.tgz#316545bf22229225a2cecaa6824cd2f56a9709ed"
+  dependencies:
+    chalk "^1.1.3"
+
 clean-css@4.0.x:
   version "4.0.7"
   resolved "http://sr-npm-registry:5001/clean-css/-/clean-css-4.0.7/d8fa8b4d87a125f38fa3d64afc59abfc68ba7790.tgz#d8fa8b4d87a125f38fa3d64afc59abfc68ba7790"
@@ -923,13 +963,59 @@ cliui@^3.2.0:
     strip-ansi "^3.0.1"
     wrap-ansi "^2.0.0"
 
+clone@^1.0.2:
+  version "1.0.2"
+  resolved "http://sr-npm-registry:5001/clone/-/clone-1.0.2/260b7a99ebb1edfe247538175f783243cb19d149.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "http://sr-npm-registry:5001/co/-/co-4.6.0/6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
+coa@~1.0.1:
+  version "1.0.1"
+  resolved "http://sr-npm-registry:5001/coa/-/coa-1.0.1/7f959346cfc8719e3f7233cd6852854a7c67d8a3.tgz#7f959346cfc8719e3f7233cd6852854a7c67d8a3"
+  dependencies:
+    q "^1.1.2"
+
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "http://sr-npm-registry:5001/code-point-at/-/code-point-at-1.1.0/0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
+
+color-convert@^1.3.0:
+  version "1.9.0"
+  resolved "http://sr-npm-registry:5001/color-convert/-/color-convert-1.9.0/1accf97dd739b983bf994d56fec8f95853641b7a.tgz#1accf97dd739b983bf994d56fec8f95853641b7a"
+  dependencies:
+    color-name "^1.1.1"
+
+color-name@^1.0.0, color-name@^1.1.1:
+  version "1.1.1"
+  resolved "http://sr-npm-registry:5001/color-name/-/color-name-1.1.1/4b1415304cf50028ea81643643bd82ea05803689.tgz#4b1415304cf50028ea81643643bd82ea05803689"
+
+color-string@^0.3.0:
+  version "0.3.0"
+  resolved "http://sr-npm-registry:5001/color-string/-/color-string-0.3.0/27d46fb67025c5c2fa25993bfbf579e47841b991.tgz#27d46fb67025c5c2fa25993bfbf579e47841b991"
+  dependencies:
+    color-name "^1.0.0"
+
+color@^0.11.0:
+  version "0.11.4"
+  resolved "http://sr-npm-registry:5001/color/-/color-0.11.4/6d7b5c74fb65e841cd48792ad1ed5e07b904d764.tgz#6d7b5c74fb65e841cd48792ad1ed5e07b904d764"
+  dependencies:
+    clone "^1.0.2"
+    color-convert "^1.3.0"
+    color-string "^0.3.0"
+
+colormin@^1.0.5:
+  version "1.1.2"
+  resolved "http://sr-npm-registry:5001/colormin/-/colormin-1.1.2/ea2f7420a72b96881a38aae59ec124a6f7298133.tgz#ea2f7420a72b96881a38aae59ec124a6f7298133"
+  dependencies:
+    color "^0.11.0"
+    css-color-names "0.0.4"
+    has "^1.0.1"
+
+colors@~1.1.2:
+  version "1.1.2"
+  resolved "http://sr-npm-registry:5001/colors/-/colors-1.1.2/168a4701756b6a7f51a12ce0c97bfa28c084ed63.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
 
 combined-stream@^1.0.5, combined-stream@~1.0.5:
   version "1.0.5"
@@ -1058,6 +1144,31 @@ crypto-browserify@^3.11.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
 
+css-color-names@0.0.4:
+  version "0.0.4"
+  resolved "http://sr-npm-registry:5001/css-color-names/-/css-color-names-0.0.4/808adc2e79cf84738069b646cb20ec27beb629e0.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
+
+css-loader@^0.26.1:
+  version "0.26.1"
+  resolved "http://sr-npm-registry:5001/css-loader/-/css-loader-0.26.1/2ba7f20131b93597496b3e9bb500785a49cd29ea.tgz#2ba7f20131b93597496b3e9bb500785a49cd29ea"
+  dependencies:
+    babel-code-frame "^6.11.0"
+    css-selector-tokenizer "^0.7.0"
+    cssnano ">=2.6.1 <4"
+    loader-utils "~0.2.2"
+    lodash.camelcase "^4.3.0"
+    object-assign "^4.0.1"
+    postcss "^5.0.6"
+    postcss-modules-extract-imports "^1.0.0"
+    postcss-modules-local-by-default "^1.0.1"
+    postcss-modules-scope "^1.0.0"
+    postcss-modules-values "^1.1.0"
+    source-list-map "^0.1.4"
+
+css-parse@1.7.x:
+  version "1.7.0"
+  resolved "http://sr-npm-registry:5001/css-parse/-/css-parse-1.7.0/321f6cf73782a6ff751111390fc05e2c657d8c9b.tgz#321f6cf73782a6ff751111390fc05e2c657d8c9b"
+
 css-select@^1.1.0:
   version "1.2.0"
   resolved "http://sr-npm-registry:5001/css-select/-/css-select-1.2.0/2b3a110539c5355f1cd8d314623e870b121ec858.tgz#2b3a110539c5355f1cd8d314623e870b121ec858"
@@ -1067,9 +1178,73 @@ css-select@^1.1.0:
     domutils "1.5.1"
     nth-check "~1.0.1"
 
+css-selector-tokenizer@^0.6.0:
+  version "0.6.0"
+  resolved "http://sr-npm-registry:5001/css-selector-tokenizer/-/css-selector-tokenizer-0.6.0/6445f582c7930d241dcc5007a43d6fcb8f073152.tgz#6445f582c7930d241dcc5007a43d6fcb8f073152"
+  dependencies:
+    cssesc "^0.1.0"
+    fastparse "^1.1.1"
+    regexpu-core "^1.0.0"
+
+css-selector-tokenizer@^0.7.0:
+  version "0.7.0"
+  resolved "http://sr-npm-registry:5001/css-selector-tokenizer/-/css-selector-tokenizer-0.7.0/e6988474ae8c953477bf5e7efecfceccd9cf4c86.tgz#e6988474ae8c953477bf5e7efecfceccd9cf4c86"
+  dependencies:
+    cssesc "^0.1.0"
+    fastparse "^1.1.1"
+    regexpu-core "^1.0.0"
+
 css-what@2.1:
   version "2.1.0"
   resolved "http://sr-npm-registry:5001/css-what/-/css-what-2.1.0/9467d032c38cfaefb9f2d79501253062f87fa1bd.tgz#9467d032c38cfaefb9f2d79501253062f87fa1bd"
+
+cssesc@^0.1.0:
+  version "0.1.0"
+  resolved "http://sr-npm-registry:5001/cssesc/-/cssesc-0.1.0/c814903e45623371a0477b40109aaafbeeaddbb4.tgz#c814903e45623371a0477b40109aaafbeeaddbb4"
+
+"cssnano@>=2.6.1 <4":
+  version "3.10.0"
+  resolved "http://sr-npm-registry:5001/cssnano/-/cssnano-3.10.0/4f38f6cea2b9b17fa01490f23f1dc68ea65c1c38.tgz#4f38f6cea2b9b17fa01490f23f1dc68ea65c1c38"
+  dependencies:
+    autoprefixer "^6.3.1"
+    decamelize "^1.1.2"
+    defined "^1.0.0"
+    has "^1.0.1"
+    object-assign "^4.0.1"
+    postcss "^5.0.14"
+    postcss-calc "^5.2.0"
+    postcss-colormin "^2.1.8"
+    postcss-convert-values "^2.3.4"
+    postcss-discard-comments "^2.0.4"
+    postcss-discard-duplicates "^2.0.1"
+    postcss-discard-empty "^2.0.1"
+    postcss-discard-overridden "^0.1.1"
+    postcss-discard-unused "^2.2.1"
+    postcss-filter-plugins "^2.0.0"
+    postcss-merge-idents "^2.1.5"
+    postcss-merge-longhand "^2.0.1"
+    postcss-merge-rules "^2.0.3"
+    postcss-minify-font-values "^1.0.2"
+    postcss-minify-gradients "^1.0.1"
+    postcss-minify-params "^1.0.4"
+    postcss-minify-selectors "^2.0.4"
+    postcss-normalize-charset "^1.1.0"
+    postcss-normalize-url "^3.0.7"
+    postcss-ordered-values "^2.1.0"
+    postcss-reduce-idents "^2.2.2"
+    postcss-reduce-initial "^1.0.0"
+    postcss-reduce-transforms "^1.0.3"
+    postcss-svgo "^2.1.1"
+    postcss-unique-selectors "^2.0.2"
+    postcss-value-parser "^3.2.3"
+    postcss-zindex "^2.0.1"
+
+csso@~2.3.1:
+  version "2.3.1"
+  resolved "http://sr-npm-registry:5001/csso/-/csso-2.3.1/4f8d91a156f2f1c2aebb40b8fb1b5eb83d94d3b9.tgz#4f8d91a156f2f1c2aebb40b8fb1b5eb83d94d3b9"
+  dependencies:
+    clap "^1.0.9"
+    source-map "^0.5.3"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -1081,7 +1256,7 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "http://sr-npm-registry:5001/date-now/-/date-now-0.1.4/eaf439fd4d4848ad74e5cc7dbef200672b9e345b.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-debug@^2.1.1, debug@^2.2.0:
+debug@*, debug@^2.1.1, debug@^2.2.0:
   version "2.6.1"
   resolved "http://sr-npm-registry:5001/debug/-/debug-2.6.1/79855090ba2c4e3115cc7d8769491d58f0491351.tgz#79855090ba2c4e3115cc7d8769491d58f0491351"
   dependencies:
@@ -1093,13 +1268,17 @@ debug@~2.2.0:
   dependencies:
     ms "0.7.1"
 
-decamelize@^1.0.0, decamelize@^1.1.1:
+decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
   resolved "http://sr-npm-registry:5001/decamelize/-/decamelize-1.2.0/f6534d15148269b20352e7bee26f501f9a191290.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
 deep-extend@~0.4.0:
   version "0.4.1"
   resolved "http://sr-npm-registry:5001/deep-extend/-/deep-extend-0.4.1/efe4113d08085f4e6f9687759810f807469e2253.tgz#efe4113d08085f4e6f9687759810f807469e2253"
+
+defined@^1.0.0:
+  version "1.0.0"
+  resolved "http://sr-npm-registry:5001/defined/-/defined-1.0.0/c98d9bcef75674188e110969151199e39b1fa693.tgz#c98d9bcef75674188e110969151199e39b1fa693"
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -1246,6 +1425,10 @@ escape-string-regexp@^1.0.2:
   version "1.0.5"
   resolved "http://sr-npm-registry:5001/escape-string-regexp/-/escape-string-regexp-1.0.5/1b61c0562190a8dff6ae3bb2cf0200ca130b86d4.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
+esprima@^2.6.0:
+  version "2.7.3"
+  resolved "http://sr-npm-registry:5001/esprima/-/esprima-2.7.3/96e3b70d5779f6ad49cd032673d1c312767ba581.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
+
 esutils@^2.0.2:
   version "2.0.2"
   resolved "http://sr-npm-registry:5001/esutils/-/esutils-2.0.2/0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
@@ -1331,6 +1514,10 @@ extsprintf@1.0.2:
   version "1.0.2"
   resolved "http://sr-npm-registry:5001/extsprintf/-/extsprintf-1.0.2/e1080e0658e300b06294990cc70e1502235fd550.tgz#e1080e0658e300b06294990cc70e1502235fd550"
 
+fastparse@^1.1.1:
+  version "1.1.1"
+  resolved "http://sr-npm-registry:5001/fastparse/-/fastparse-1.1.1/d1e2643b38a94d7583b479060e6c4affc94071f8.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
+
 faye-websocket@^0.10.0:
   version "0.10.0"
   resolved "http://sr-npm-registry:5001/faye-websocket/-/faye-websocket-0.10.0/4e492f8d04dfb6f89003507f6edbf2d501e7c6f4.tgz#4e492f8d04dfb6f89003507f6edbf2d501e7c6f4"
@@ -1381,6 +1568,10 @@ find-up@^1.0.0:
   dependencies:
     path-exists "^2.0.0"
     pinkie-promise "^2.0.0"
+
+flatten@^1.0.2:
+  version "1.0.2"
+  resolved "http://sr-npm-registry:5001/flatten/-/flatten-1.0.2/dae46a9d78fbe25292258cc1e780a41d95c03782.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
 for-in@^0.1.5:
   version "0.1.6"
@@ -1440,6 +1631,10 @@ fstream@^1.0.0, fstream@^1.0.2, fstream@~1.0.10:
     mkdirp ">=0.5 0"
     rimraf "2"
 
+function-bind@^1.0.2:
+  version "1.1.0"
+  resolved "http://sr-npm-registry:5001/function-bind/-/function-bind-1.1.0/16176714c801798e4e8f2cf7f7529467bb4a5771.tgz#16176714c801798e4e8f2cf7f7529467bb4a5771"
+
 gauge@~2.7.1:
   version "2.7.3"
   resolved "http://sr-npm-registry:5001/gauge/-/gauge-2.7.3/1c23855f962f17b3ad3d0dc7443f304542edfe09.tgz#1c23855f962f17b3ad3d0dc7443f304542edfe09"
@@ -1485,6 +1680,17 @@ glob-parent@^2.0.0:
   resolved "http://sr-npm-registry:5001/glob-parent/-/glob-parent-2.0.0/81383d72db054fcccf5336daa902f182f6edbb28.tgz#81383d72db054fcccf5336daa902f182f6edbb28"
   dependencies:
     is-glob "^2.0.0"
+
+glob@7.0.x:
+  version "7.0.6"
+  resolved "http://sr-npm-registry:5001/glob/-/glob-7.0.6/211bafaf49e525b8cd93260d14ab136152b3f57a.tgz#211bafaf49e525b8cd93260d14ab136152b3f57a"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.2"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
 
 glob@^7.0.5:
   version "7.1.1"
@@ -1536,6 +1742,12 @@ has-unicode@^2.0.0:
   version "2.0.1"
   resolved "http://sr-npm-registry:5001/has-unicode/-/has-unicode-2.0.1/e0e6fe6a28cf51138855e086d1691e771de2a8b9.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
 
+has@^1.0.1:
+  version "1.0.1"
+  resolved "http://sr-npm-registry:5001/has/-/has-1.0.1/8461733f538b0837c9361e39a9ab9e9704dc2f28.tgz#8461733f538b0837c9361e39a9ab9e9704dc2f28"
+  dependencies:
+    function-bind "^1.0.2"
+
 hash.js@^1.0.0:
   version "1.0.3"
   resolved "http://sr-npm-registry:5001/hash.js/-/hash.js-1.0.3/1332ff00156c0a0ffdd8236013d07b77a0451573.tgz#1332ff00156c0a0ffdd8236013d07b77a0451573"
@@ -1578,6 +1790,10 @@ hpack.js@^2.1.6:
     obuf "^1.0.0"
     readable-stream "^2.0.1"
     wbuf "^1.1.0"
+
+html-comment-regex@^1.1.0:
+  version "1.1.1"
+  resolved "http://sr-npm-registry:5001/html-comment-regex/-/html-comment-regex-1.1.1/668b93776eaae55ebde8f3ad464b307a4963625e.tgz#668b93776eaae55ebde8f3ad464b307a4963625e"
 
 html-entities@^1.2.0:
   version "1.2.0"
@@ -1656,9 +1872,17 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "http://sr-npm-registry:5001/https-browserify/-/https-browserify-0.0.1/3f91365cabe60b77ed0ebba24b454e3e09d95a82.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
+icss-replace-symbols@^1.0.2:
+  version "1.0.2"
+  resolved "http://sr-npm-registry:5001/icss-replace-symbols/-/icss-replace-symbols-1.0.2/cb0b6054eb3af6edc9ab1d62d01933e2d4c8bfa5.tgz#cb0b6054eb3af6edc9ab1d62d01933e2d4c8bfa5"
+
 ieee754@^1.1.4:
   version "1.1.8"
   resolved "http://sr-npm-registry:5001/ieee754/-/ieee754-1.1.8/be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
+
+indexes-of@^1.0.1:
+  version "1.0.1"
+  resolved "http://sr-npm-registry:5001/indexes-of/-/indexes-of-1.0.1/f30f716c8e2bd346c7b67d3df3915566a7c05607.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
 
 indexof@0.0.1:
   version "0.0.1"
@@ -1731,6 +1955,10 @@ invert-kv@^1.0.0:
 ipaddr.js@1.2.0:
   version "1.2.0"
   resolved "http://sr-npm-registry:5001/ipaddr.js/-/ipaddr.js-1.2.0/8aba49c9192799585bdd643e0ccb50e8ae777ba4.tgz#8aba49c9192799585bdd643e0ccb50e8ae777ba4"
+
+is-absolute-url@^2.0.0:
+  version "2.1.0"
+  resolved "http://sr-npm-registry:5001/is-absolute-url/-/is-absolute-url-2.1.0/50530dfb84fcc9aa7dbe7852e83a37b93b9f2aa6.tgz#50530dfb84fcc9aa7dbe7852e83a37b93b9f2aa6"
 
 is-arrayish@^0.2.1:
   version "0.2.1"
@@ -1813,6 +2041,10 @@ is-number@^2.0.2, is-number@^2.1.0:
   dependencies:
     kind-of "^3.0.2"
 
+is-plain-obj@^1.0.0:
+  version "1.1.0"
+  resolved "http://sr-npm-registry:5001/is-plain-obj/-/is-plain-obj-1.1.0/71a50c8429dfca773c92a390a4a03b39fcd51d3e.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
+
 is-posix-bracket@^0.1.0:
   version "0.1.1"
   resolved "http://sr-npm-registry:5001/is-posix-bracket/-/is-posix-bracket-0.1.1/3334dc79774368e92f016e6fbc0a88f5cd6e6bc4.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
@@ -1824,6 +2056,12 @@ is-primitive@^2.0.0:
 is-property@^1.0.0:
   version "1.0.2"
   resolved "http://sr-npm-registry:5001/is-property/-/is-property-1.0.2/57fe1c4e48474edd65b09911f26b1cd4095dda84.tgz#57fe1c4e48474edd65b09911f26b1cd4095dda84"
+
+is-svg@^2.0.0:
+  version "2.1.0"
+  resolved "http://sr-npm-registry:5001/is-svg/-/is-svg-2.1.0/cf61090da0d9efbcab8722deba6f032208dbb0e9.tgz#cf61090da0d9efbcab8722deba6f032208dbb0e9"
+  dependencies:
+    html-comment-regex "^1.1.0"
 
 is-typedarray@~1.0.0:
   version "1.0.0"
@@ -1857,9 +2095,20 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
+js-base64@^2.1.9:
+  version "2.1.9"
+  resolved "http://sr-npm-registry:5001/js-base64/-/js-base64-2.1.9/f0e80ae039a4bd654b5f281fc93f04a914a7fcce.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
+
 js-tokens@^3.0.0:
   version "3.0.1"
   resolved "http://sr-npm-registry:5001/js-tokens/-/js-tokens-3.0.1/08e9f132484a2c45a30907e9dc4d5567b7f114d7.tgz#08e9f132484a2c45a30907e9dc4d5567b7f114d7"
+
+js-yaml@~3.7.0:
+  version "3.7.0"
+  resolved "http://sr-npm-registry:5001/js-yaml/-/js-yaml-3.7.0/5c967ddd837a9bfdca5f2de84253abe8a1c03b80.tgz#5c967ddd837a9bfdca5f2de84253abe8a1c03b80"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^2.6.0"
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -1945,7 +2194,7 @@ loader-runner@^2.3.0:
   version "2.3.0"
   resolved "http://sr-npm-registry:5001/loader-runner/-/loader-runner-2.3.0/f482aea82d543e07921700d5a46ef26fdac6b8a2.tgz#f482aea82d543e07921700d5a46ef26fdac6b8a2"
 
-loader-utils@^0.2.16:
+loader-utils@^0.2.16, loader-utils@^0.2.7, loader-utils@^0.2.9, loader-utils@~0.2.2:
   version "0.2.16"
   resolved "http://sr-npm-registry:5001/loader-utils/-/loader-utils-0.2.16/f08632066ed8282835dff88dfb52704765adee6d.tgz#f08632066ed8282835dff88dfb52704765adee6d"
   dependencies:
@@ -1953,6 +2202,18 @@ loader-utils@^0.2.16:
     emojis-list "^2.0.0"
     json5 "^0.5.0"
     object-assign "^4.0.1"
+
+lodash.camelcase@^4.3.0:
+  version "4.3.0"
+  resolved "http://sr-npm-registry:5001/lodash.camelcase/-/lodash.camelcase-4.3.0/b28aa6288a2b9fc651035c7711f65ab6190331a6.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+
+lodash.memoize@^4.1.0:
+  version "4.1.2"
+  resolved "http://sr-npm-registry:5001/lodash.memoize/-/lodash.memoize-4.1.2/bcc6c49a42a2840ed997f323eada5ecd182e0bfe.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
+
+lodash.uniq@^4.3.0:
+  version "4.5.0"
+  resolved "http://sr-npm-registry:5001/lodash.uniq/-/lodash.uniq-4.5.0/d0225373aeb652adc1bc82e4945339a842754773.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
 lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.2.0:
   version "4.17.4"
@@ -1971,6 +2232,14 @@ loose-envify@^1.0.0:
 lower-case@^1.1.1:
   version "1.1.3"
   resolved "http://sr-npm-registry:5001/lower-case/-/lower-case-1.1.3/c92393d976793eee5ba4edb583cf8eae35bd9bfb.tgz#c92393d976793eee5ba4edb583cf8eae35bd9bfb"
+
+macaddress@^0.2.8:
+  version "0.2.8"
+  resolved "http://sr-npm-registry:5001/macaddress/-/macaddress-0.2.8/5904dc537c39ec6dbefeae902327135fa8511f12.tgz#5904dc537c39ec6dbefeae902327135fa8511f12"
+
+math-expression-evaluator@^1.2.14:
+  version "1.2.16"
+  resolved "http://sr-npm-registry:5001/math-expression-evaluator/-/math-expression-evaluator-1.2.16/b357fa1ca9faefb8e48d10c14ef2bcb2d9f0a7c9.tgz#b357fa1ca9faefb8e48d10c14ef2bcb2d9f0a7c9"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -2143,6 +2412,19 @@ normalize-path@^2.0.1:
   version "2.0.1"
   resolved "http://sr-npm-registry:5001/normalize-path/-/normalize-path-2.0.1/47886ac1662760d4261b7d979d241709d3ce3f7a.tgz#47886ac1662760d4261b7d979d241709d3ce3f7a"
 
+normalize-range@^0.1.2:
+  version "0.1.2"
+  resolved "http://sr-npm-registry:5001/normalize-range/-/normalize-range-0.1.2/2d10c06bdfd312ea9777695a4d28439456b75942.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
+
+normalize-url@^1.4.0:
+  version "1.9.0"
+  resolved "http://sr-npm-registry:5001/normalize-url/-/normalize-url-1.9.0/c2bb50035edee62cd81edb2d45da68dc25e3423e.tgz#c2bb50035edee62cd81edb2d45da68dc25e3423e"
+  dependencies:
+    object-assign "^4.0.1"
+    prepend-http "^1.0.0"
+    query-string "^4.1.0"
+    sort-keys "^1.0.0"
+
 npmlog@^4.0.1:
   version "4.0.2"
   resolved "http://sr-npm-registry:5001/npmlog/-/npmlog-4.0.2/d03950e0e78ce1527ba26d2a7592e9348ac3e75f.tgz#d03950e0e78ce1527ba26d2a7592e9348ac3e75f"
@@ -2157,6 +2439,10 @@ nth-check@~1.0.1:
   resolved "http://sr-npm-registry:5001/nth-check/-/nth-check-1.0.1/9929acdf628fc2c41098deab82ac580cf149aae4.tgz#9929acdf628fc2c41098deab82ac580cf149aae4"
   dependencies:
     boolbase "~1.0.0"
+
+num2fraction@^1.2.2:
+  version "1.2.2"
+  resolved "http://sr-npm-registry:5001/num2fraction/-/num2fraction-1.2.2/6f682b6a027a4e9ddfa4564cd2589d1d4e669ede.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
 
 number-is-nan@^1.0.0:
   version "1.0.1"
@@ -2327,6 +2613,248 @@ portfinder@^1.0.9:
     debug "^2.2.0"
     mkdirp "0.5.x"
 
+postcss-calc@^5.2.0:
+  version "5.3.1"
+  resolved "http://sr-npm-registry:5001/postcss-calc/-/postcss-calc-5.3.1/77bae7ca928ad85716e2fda42f261bf7c1d65b5e.tgz#77bae7ca928ad85716e2fda42f261bf7c1d65b5e"
+  dependencies:
+    postcss "^5.0.2"
+    postcss-message-helpers "^2.0.0"
+    reduce-css-calc "^1.2.6"
+
+postcss-colormin@^2.1.8:
+  version "2.2.2"
+  resolved "http://sr-npm-registry:5001/postcss-colormin/-/postcss-colormin-2.2.2/6631417d5f0e909a3d7ec26b24c8a8d1e4f96e4b.tgz#6631417d5f0e909a3d7ec26b24c8a8d1e4f96e4b"
+  dependencies:
+    colormin "^1.0.5"
+    postcss "^5.0.13"
+    postcss-value-parser "^3.2.3"
+
+postcss-convert-values@^2.3.4:
+  version "2.6.1"
+  resolved "http://sr-npm-registry:5001/postcss-convert-values/-/postcss-convert-values-2.6.1/bbd8593c5c1fd2e3d1c322bb925dcae8dae4d62d.tgz#bbd8593c5c1fd2e3d1c322bb925dcae8dae4d62d"
+  dependencies:
+    postcss "^5.0.11"
+    postcss-value-parser "^3.1.2"
+
+postcss-discard-comments@^2.0.4:
+  version "2.0.4"
+  resolved "http://sr-npm-registry:5001/postcss-discard-comments/-/postcss-discard-comments-2.0.4/befe89fafd5b3dace5ccce51b76b81514be00e3d.tgz#befe89fafd5b3dace5ccce51b76b81514be00e3d"
+  dependencies:
+    postcss "^5.0.14"
+
+postcss-discard-duplicates@^2.0.1:
+  version "2.0.2"
+  resolved "http://sr-npm-registry:5001/postcss-discard-duplicates/-/postcss-discard-duplicates-2.0.2/02be520e91571ffb10738766a981d5770989bb32.tgz#02be520e91571ffb10738766a981d5770989bb32"
+  dependencies:
+    postcss "^5.0.4"
+
+postcss-discard-empty@^2.0.1:
+  version "2.1.0"
+  resolved "http://sr-npm-registry:5001/postcss-discard-empty/-/postcss-discard-empty-2.1.0/d2b4bd9d5ced5ebd8dcade7640c7d7cd7f4f92b5.tgz#d2b4bd9d5ced5ebd8dcade7640c7d7cd7f4f92b5"
+  dependencies:
+    postcss "^5.0.14"
+
+postcss-discard-overridden@^0.1.1:
+  version "0.1.1"
+  resolved "http://sr-npm-registry:5001/postcss-discard-overridden/-/postcss-discard-overridden-0.1.1/8b1eaf554f686fb288cd874c55667b0aa3668d58.tgz#8b1eaf554f686fb288cd874c55667b0aa3668d58"
+  dependencies:
+    postcss "^5.0.16"
+
+postcss-discard-unused@^2.2.1:
+  version "2.2.3"
+  resolved "http://sr-npm-registry:5001/postcss-discard-unused/-/postcss-discard-unused-2.2.3/bce30b2cc591ffc634322b5fb3464b6d934f4433.tgz#bce30b2cc591ffc634322b5fb3464b6d934f4433"
+  dependencies:
+    postcss "^5.0.14"
+    uniqs "^2.0.0"
+
+postcss-filter-plugins@^2.0.0:
+  version "2.0.2"
+  resolved "http://sr-npm-registry:5001/postcss-filter-plugins/-/postcss-filter-plugins-2.0.2/6d85862534d735ac420e4a85806e1f5d4286d84c.tgz#6d85862534d735ac420e4a85806e1f5d4286d84c"
+  dependencies:
+    postcss "^5.0.4"
+    uniqid "^4.0.0"
+
+postcss-merge-idents@^2.1.5:
+  version "2.1.7"
+  resolved "http://sr-npm-registry:5001/postcss-merge-idents/-/postcss-merge-idents-2.1.7/4c5530313c08e1d5b3bbf3d2bbc747e278eea270.tgz#4c5530313c08e1d5b3bbf3d2bbc747e278eea270"
+  dependencies:
+    has "^1.0.1"
+    postcss "^5.0.10"
+    postcss-value-parser "^3.1.1"
+
+postcss-merge-longhand@^2.0.1:
+  version "2.0.2"
+  resolved "http://sr-npm-registry:5001/postcss-merge-longhand/-/postcss-merge-longhand-2.0.2/23d90cd127b0a77994915332739034a1a4f3d658.tgz#23d90cd127b0a77994915332739034a1a4f3d658"
+  dependencies:
+    postcss "^5.0.4"
+
+postcss-merge-rules@^2.0.3:
+  version "2.1.1"
+  resolved "http://sr-npm-registry:5001/postcss-merge-rules/-/postcss-merge-rules-2.1.1/5e5640020ce43cddd343c73bba91c9a358d1fe0f.tgz#5e5640020ce43cddd343c73bba91c9a358d1fe0f"
+  dependencies:
+    browserslist "^1.5.2"
+    caniuse-api "^1.5.2"
+    postcss "^5.0.4"
+    postcss-selector-parser "^2.2.2"
+    vendors "^1.0.0"
+
+postcss-message-helpers@^2.0.0:
+  version "2.0.0"
+  resolved "http://sr-npm-registry:5001/postcss-message-helpers/-/postcss-message-helpers-2.0.0/a4f2f4fab6e4fe002f0aed000478cdf52f9ba60e.tgz#a4f2f4fab6e4fe002f0aed000478cdf52f9ba60e"
+
+postcss-minify-font-values@^1.0.2:
+  version "1.0.5"
+  resolved "http://sr-npm-registry:5001/postcss-minify-font-values/-/postcss-minify-font-values-1.0.5/4b58edb56641eba7c8474ab3526cafd7bbdecb69.tgz#4b58edb56641eba7c8474ab3526cafd7bbdecb69"
+  dependencies:
+    object-assign "^4.0.1"
+    postcss "^5.0.4"
+    postcss-value-parser "^3.0.2"
+
+postcss-minify-gradients@^1.0.1:
+  version "1.0.5"
+  resolved "http://sr-npm-registry:5001/postcss-minify-gradients/-/postcss-minify-gradients-1.0.5/5dbda11373703f83cfb4a3ea3881d8d75ff5e6e1.tgz#5dbda11373703f83cfb4a3ea3881d8d75ff5e6e1"
+  dependencies:
+    postcss "^5.0.12"
+    postcss-value-parser "^3.3.0"
+
+postcss-minify-params@^1.0.4:
+  version "1.2.2"
+  resolved "http://sr-npm-registry:5001/postcss-minify-params/-/postcss-minify-params-1.2.2/ad2ce071373b943b3d930a3fa59a358c28d6f1f3.tgz#ad2ce071373b943b3d930a3fa59a358c28d6f1f3"
+  dependencies:
+    alphanum-sort "^1.0.1"
+    postcss "^5.0.2"
+    postcss-value-parser "^3.0.2"
+    uniqs "^2.0.0"
+
+postcss-minify-selectors@^2.0.4:
+  version "2.1.1"
+  resolved "http://sr-npm-registry:5001/postcss-minify-selectors/-/postcss-minify-selectors-2.1.1/b2c6a98c0072cf91b932d1a496508114311735bf.tgz#b2c6a98c0072cf91b932d1a496508114311735bf"
+  dependencies:
+    alphanum-sort "^1.0.2"
+    has "^1.0.1"
+    postcss "^5.0.14"
+    postcss-selector-parser "^2.0.0"
+
+postcss-modules-extract-imports@^1.0.0:
+  version "1.0.1"
+  resolved "http://sr-npm-registry:5001/postcss-modules-extract-imports/-/postcss-modules-extract-imports-1.0.1/8fb3fef9a6dd0420d3f6d4353cf1ff73f2b2a341.tgz#8fb3fef9a6dd0420d3f6d4353cf1ff73f2b2a341"
+  dependencies:
+    postcss "^5.0.4"
+
+postcss-modules-local-by-default@^1.0.1:
+  version "1.1.1"
+  resolved "http://sr-npm-registry:5001/postcss-modules-local-by-default/-/postcss-modules-local-by-default-1.1.1/29a10673fa37d19251265ca2ba3150d9040eb4ce.tgz#29a10673fa37d19251265ca2ba3150d9040eb4ce"
+  dependencies:
+    css-selector-tokenizer "^0.6.0"
+    postcss "^5.0.4"
+
+postcss-modules-scope@^1.0.0:
+  version "1.0.2"
+  resolved "http://sr-npm-registry:5001/postcss-modules-scope/-/postcss-modules-scope-1.0.2/ff977395e5e06202d7362290b88b1e8cd049de29.tgz#ff977395e5e06202d7362290b88b1e8cd049de29"
+  dependencies:
+    css-selector-tokenizer "^0.6.0"
+    postcss "^5.0.4"
+
+postcss-modules-values@^1.1.0:
+  version "1.2.2"
+  resolved "http://sr-npm-registry:5001/postcss-modules-values/-/postcss-modules-values-1.2.2/f0e7d476fe1ed88c5e4c7f97533a3e772ad94ca1.tgz#f0e7d476fe1ed88c5e4c7f97533a3e772ad94ca1"
+  dependencies:
+    icss-replace-symbols "^1.0.2"
+    postcss "^5.0.14"
+
+postcss-normalize-charset@^1.1.0:
+  version "1.1.1"
+  resolved "http://sr-npm-registry:5001/postcss-normalize-charset/-/postcss-normalize-charset-1.1.1/ef9ee71212d7fe759c78ed162f61ed62b5cb93f1.tgz#ef9ee71212d7fe759c78ed162f61ed62b5cb93f1"
+  dependencies:
+    postcss "^5.0.5"
+
+postcss-normalize-url@^3.0.7:
+  version "3.0.8"
+  resolved "http://sr-npm-registry:5001/postcss-normalize-url/-/postcss-normalize-url-3.0.8/108f74b3f2fcdaf891a2ffa3ea4592279fc78222.tgz#108f74b3f2fcdaf891a2ffa3ea4592279fc78222"
+  dependencies:
+    is-absolute-url "^2.0.0"
+    normalize-url "^1.4.0"
+    postcss "^5.0.14"
+    postcss-value-parser "^3.2.3"
+
+postcss-ordered-values@^2.1.0:
+  version "2.2.3"
+  resolved "http://sr-npm-registry:5001/postcss-ordered-values/-/postcss-ordered-values-2.2.3/eec6c2a67b6c412a8db2042e77fe8da43f95c11d.tgz#eec6c2a67b6c412a8db2042e77fe8da43f95c11d"
+  dependencies:
+    postcss "^5.0.4"
+    postcss-value-parser "^3.0.1"
+
+postcss-reduce-idents@^2.2.2:
+  version "2.4.0"
+  resolved "http://sr-npm-registry:5001/postcss-reduce-idents/-/postcss-reduce-idents-2.4.0/c2c6d20cc958284f6abfbe63f7609bf409059ad3.tgz#c2c6d20cc958284f6abfbe63f7609bf409059ad3"
+  dependencies:
+    postcss "^5.0.4"
+    postcss-value-parser "^3.0.2"
+
+postcss-reduce-initial@^1.0.0:
+  version "1.0.1"
+  resolved "http://sr-npm-registry:5001/postcss-reduce-initial/-/postcss-reduce-initial-1.0.1/68f80695f045d08263a879ad240df8dd64f644ea.tgz#68f80695f045d08263a879ad240df8dd64f644ea"
+  dependencies:
+    postcss "^5.0.4"
+
+postcss-reduce-transforms@^1.0.3:
+  version "1.0.4"
+  resolved "http://sr-npm-registry:5001/postcss-reduce-transforms/-/postcss-reduce-transforms-1.0.4/ff76f4d8212437b31c298a42d2e1444025771ae1.tgz#ff76f4d8212437b31c298a42d2e1444025771ae1"
+  dependencies:
+    has "^1.0.1"
+    postcss "^5.0.8"
+    postcss-value-parser "^3.0.1"
+
+postcss-selector-parser@^2.0.0, postcss-selector-parser@^2.2.2:
+  version "2.2.2"
+  resolved "http://sr-npm-registry:5001/postcss-selector-parser/-/postcss-selector-parser-2.2.2/3d70f5adda130da51c7c0c2fc023f56b1374fe08.tgz#3d70f5adda130da51c7c0c2fc023f56b1374fe08"
+  dependencies:
+    flatten "^1.0.2"
+    indexes-of "^1.0.1"
+    uniq "^1.0.1"
+
+postcss-svgo@^2.1.1:
+  version "2.1.6"
+  resolved "http://sr-npm-registry:5001/postcss-svgo/-/postcss-svgo-2.1.6/b6df18aa613b666e133f08adb5219c2684ac108d.tgz#b6df18aa613b666e133f08adb5219c2684ac108d"
+  dependencies:
+    is-svg "^2.0.0"
+    postcss "^5.0.14"
+    postcss-value-parser "^3.2.3"
+    svgo "^0.7.0"
+
+postcss-unique-selectors@^2.0.2:
+  version "2.0.2"
+  resolved "http://sr-npm-registry:5001/postcss-unique-selectors/-/postcss-unique-selectors-2.0.2/981d57d29ddcb33e7b1dfe1fd43b8649f933ca1d.tgz#981d57d29ddcb33e7b1dfe1fd43b8649f933ca1d"
+  dependencies:
+    alphanum-sort "^1.0.1"
+    postcss "^5.0.4"
+    uniqs "^2.0.0"
+
+postcss-value-parser@^3.0.1, postcss-value-parser@^3.0.2, postcss-value-parser@^3.1.1, postcss-value-parser@^3.1.2, postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0:
+  version "3.3.0"
+  resolved "http://sr-npm-registry:5001/postcss-value-parser/-/postcss-value-parser-3.3.0/87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15.tgz#87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15"
+
+postcss-zindex@^2.0.1:
+  version "2.2.0"
+  resolved "http://sr-npm-registry:5001/postcss-zindex/-/postcss-zindex-2.2.0/d2109ddc055b91af67fc4cb3b025946639d2af22.tgz#d2109ddc055b91af67fc4cb3b025946639d2af22"
+  dependencies:
+    has "^1.0.1"
+    postcss "^5.0.4"
+    uniqs "^2.0.0"
+
+postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.6, postcss@^5.0.8, postcss@^5.2.13:
+  version "5.2.14"
+  resolved "http://sr-npm-registry:5001/postcss/-/postcss-5.2.14/47b4fbde363fd4f81e547f7e0e43d6d300267330.tgz#47b4fbde363fd4f81e547f7e0e43d6d300267330"
+  dependencies:
+    chalk "^1.1.3"
+    js-base64 "^2.1.9"
+    source-map "^0.5.6"
+    supports-color "^3.2.3"
+
+prepend-http@^1.0.0:
+  version "1.0.4"
+  resolved "http://sr-npm-registry:5001/prepend-http/-/prepend-http-1.0.4/d4f4562b0ce3696e41ac52d0e002e57a635dc6dc.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
+
 preserve@^0.2.0:
   version "0.2.0"
   resolved "http://sr-npm-registry:5001/preserve/-/preserve-0.2.0/815ed1f6ebc65926f865b310c0713bcb3315ce4b.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
@@ -2379,6 +2907,10 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "http://sr-npm-registry:5001/punycode/-/punycode-1.4.1/c0d5a63b2718800ad8e1eb0fa5269c84dd41845e.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
+q@^1.1.2:
+  version "1.4.1"
+  resolved "http://sr-npm-registry:5001/q/-/q-1.4.1/55705bcd93c5f3673530c2c2cbc0c2b3addc286e.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
+
 qs@6.2.0:
   version "6.2.0"
   resolved "http://sr-npm-registry:5001/qs/-/qs-6.2.0/3b7848c03c2dece69a9522b0fae8c4126d745f3b.tgz#3b7848c03c2dece69a9522b0fae8c4126d745f3b"
@@ -2386,6 +2918,13 @@ qs@6.2.0:
 qs@~6.3.0:
   version "6.3.0"
   resolved "http://sr-npm-registry:5001/qs/-/qs-6.3.0/f403b264f23bc01228c74131b407f18d5ea5d442.tgz#f403b264f23bc01228c74131b407f18d5ea5d442"
+
+query-string@^4.1.0:
+  version "4.3.2"
+  resolved "http://sr-npm-registry:5001/query-string/-/query-string-4.3.2/ec0fd765f58a50031a3968c2431386f8947a5cdd.tgz#ec0fd765f58a50031a3968c2431386f8947a5cdd"
+  dependencies:
+    object-assign "^4.1.0"
+    strict-uri-encode "^1.0.0"
 
 querystring-es3@^0.2.0:
   version "0.2.1"
@@ -2480,6 +3019,20 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
+reduce-css-calc@^1.2.6:
+  version "1.3.0"
+  resolved "http://sr-npm-registry:5001/reduce-css-calc/-/reduce-css-calc-1.3.0/747c914e049614a4c9cfbba629871ad1d2927716.tgz#747c914e049614a4c9cfbba629871ad1d2927716"
+  dependencies:
+    balanced-match "^0.4.2"
+    math-expression-evaluator "^1.2.14"
+    reduce-function-call "^1.0.1"
+
+reduce-function-call@^1.0.1:
+  version "1.0.2"
+  resolved "http://sr-npm-registry:5001/reduce-function-call/-/reduce-function-call-1.0.2/5a200bf92e0e37751752fe45b0ab330fd4b6be99.tgz#5a200bf92e0e37751752fe45b0ab330fd4b6be99"
+  dependencies:
+    balanced-match "^0.4.2"
+
 regenerate@^1.2.1:
   version "1.3.2"
   resolved "http://sr-npm-registry:5001/regenerate/-/regenerate-1.3.2/d1941c67bad437e1be76433add5b385f95b19260.tgz#d1941c67bad437e1be76433add5b385f95b19260"
@@ -2502,6 +3055,14 @@ regex-cache@^0.4.2:
   dependencies:
     is-equal-shallow "^0.1.3"
     is-primitive "^2.0.0"
+
+regexpu-core@^1.0.0:
+  version "1.0.0"
+  resolved "http://sr-npm-registry:5001/regexpu-core/-/regexpu-core-1.0.0/86a763f58ee4d7c2f6b102e4764050de7ed90c6b.tgz#86a763f58ee4d7c2f6b102e4764050de7ed90c6b"
+  dependencies:
+    regenerate "^1.2.1"
+    regjsgen "^0.2.0"
+    regjsparser "^0.1.4"
 
 regexpu-core@^2.0.0:
   version "2.0.0"
@@ -2601,6 +3162,14 @@ rimraf@2, rimraf@~2.5.1, rimraf@~2.5.4:
 ripemd160@^1.0.0:
   version "1.0.1"
   resolved "http://sr-npm-registry:5001/ripemd160/-/ripemd160-1.0.1/93a4bbd4942bc574b69a8fa57c71de10ecca7d6e.tgz#93a4bbd4942bc574b69a8fa57c71de10ecca7d6e"
+
+sax@0.5.x:
+  version "0.5.8"
+  resolved "http://sr-npm-registry:5001/sax/-/sax-0.5.8/d472db228eb331c2506b0e8c15524adb939d12c1.tgz#d472db228eb331c2506b0e8c15524adb939d12c1"
+
+sax@~1.2.1:
+  version "1.2.2"
+  resolved "http://sr-npm-registry:5001/sax/-/sax-1.2.2/fd8631a23bc7826bef5d871bdb87378c95647828.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
 
 select-hose@^2.0.0:
   version "2.0.0"
@@ -2703,7 +3272,13 @@ sockjs@0.3.18:
     faye-websocket "^0.10.0"
     uuid "^2.0.2"
 
-source-list-map@~0.1.7:
+sort-keys@^1.0.0:
+  version "1.1.2"
+  resolved "http://sr-npm-registry:5001/sort-keys/-/sort-keys-1.1.2/441b6d4d346798f1b4e49e8920adfba0e543f9ad.tgz#441b6d4d346798f1b4e49e8920adfba0e543f9ad"
+  dependencies:
+    is-plain-obj "^1.0.0"
+
+source-list-map@^0.1.4, source-list-map@~0.1.7:
   version "0.1.8"
   resolved "http://sr-npm-registry:5001/source-list-map/-/source-list-map-0.1.8/c550b2ab5427f6b3f21f5afead88c4f5587b2106.tgz#c550b2ab5427f6b3f21f5afead88c4f5587b2106"
 
@@ -2713,7 +3288,13 @@ source-map-support@^0.4.2:
   dependencies:
     source-map "^0.5.3"
 
-source-map@0.5.x, source-map@^0.5.0, source-map@^0.5.3, source-map@~0.5.1, source-map@~0.5.3:
+source-map@0.1.x:
+  version "0.1.43"
+  resolved "http://sr-npm-registry:5001/source-map/-/source-map-0.1.43/c24bc146ca517c1471f5dacbe2571b2b7f9e3346.tgz#c24bc146ca517c1471f5dacbe2571b2b7f9e3346"
+  dependencies:
+    amdefine ">=0.0.4"
+
+source-map@0.5.x, source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1, source-map@~0.5.3:
   version "0.5.6"
   resolved "http://sr-npm-registry:5001/source-map/-/source-map-0.5.6/75ce38f52bf0733c5a7f0c118d81334a2bb5f412.tgz#75ce38f52bf0733c5a7f0c118d81334a2bb5f412"
 
@@ -2751,6 +3332,10 @@ spdy@^3.4.1:
     select-hose "^2.0.0"
     spdy-transport "^2.0.15"
 
+sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "http://sr-npm-registry:5001/sprintf-js/-/sprintf-js-1.0.3/04e6926f662895354f3dd015203633b857297e2c.tgz#04e6926f662895354f3dd015203633b857297e2c"
+
 sshpk@^1.7.0:
   version "1.10.2"
   resolved "http://sr-npm-registry:5001/sshpk/-/sshpk-1.10.2/d5a804ce22695515638e798dbe23273de070a5fa.tgz#d5a804ce22695515638e798dbe23273de070a5fa"
@@ -2787,6 +3372,10 @@ stream-http@^2.3.1:
     to-arraybuffer "^1.0.0"
     xtend "^4.0.0"
 
+strict-uri-encode@^1.0.0:
+  version "1.1.0"
+  resolved "http://sr-npm-registry:5001/strict-uri-encode/-/strict-uri-encode-1.1.0/279b225df1d582b1f54e65addd4352e18faa0713.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
+
 string-width@^1.0.1, string-width@^1.0.2:
   version "1.0.2"
   resolved "http://sr-npm-registry:5001/string-width/-/string-width-1.0.2/118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
@@ -2819,15 +3408,51 @@ strip-json-comments@~1.0.4:
   version "1.0.4"
   resolved "http://sr-npm-registry:5001/strip-json-comments/-/strip-json-comments-1.0.4/1e15fbcac97d3ee99bf2d73b4c656b082bbafb91.tgz#1e15fbcac97d3ee99bf2d73b4c656b082bbafb91"
 
+style-loader@^0.13.1:
+  version "0.13.1"
+  resolved "http://sr-npm-registry:5001/style-loader/-/style-loader-0.13.1/468280efbc0473023cd3a6cd56e33b5a1d7fc3a9.tgz#468280efbc0473023cd3a6cd56e33b5a1d7fc3a9"
+  dependencies:
+    loader-utils "^0.2.7"
+
+stylus-loader@^2.5.0:
+  version "2.5.0"
+  resolved "http://sr-npm-registry:5001/stylus-loader/-/stylus-loader-2.5.0/4f921afc99f7a3d2f89d45ebcbc145822bf3fe71.tgz#4f921afc99f7a3d2f89d45ebcbc145822bf3fe71"
+  dependencies:
+    loader-utils "^0.2.9"
+    when "~3.6.x"
+
+stylus@^0.54.5:
+  version "0.54.5"
+  resolved "http://sr-npm-registry:5001/stylus/-/stylus-0.54.5/42b9560931ca7090ce8515a798ba9e6aa3d6dc79.tgz#42b9560931ca7090ce8515a798ba9e6aa3d6dc79"
+  dependencies:
+    css-parse "1.7.x"
+    debug "*"
+    glob "7.0.x"
+    mkdirp "0.5.x"
+    sax "0.5.x"
+    source-map "0.1.x"
+
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "http://sr-npm-registry:5001/supports-color/-/supports-color-2.0.0/535d045ce6b6363fa40117084629995e9df324c7.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-supports-color@^3.1.0, supports-color@^3.1.1:
+supports-color@^3.1.0, supports-color@^3.1.1, supports-color@^3.2.3:
   version "3.2.3"
   resolved "http://sr-npm-registry:5001/supports-color/-/supports-color-3.2.3/65ac0504b3954171d8a64946b2ae3cbb8a5f54f6.tgz#65ac0504b3954171d8a64946b2ae3cbb8a5f54f6"
   dependencies:
     has-flag "^1.0.0"
+
+svgo@^0.7.0:
+  version "0.7.2"
+  resolved "http://sr-npm-registry:5001/svgo/-/svgo-0.7.2/9f5772413952135c6fefbf40afe6a4faa88b4bb5.tgz#9f5772413952135c6fefbf40afe6a4faa88b4bb5"
+  dependencies:
+    coa "~1.0.1"
+    colors "~1.1.2"
+    csso "~2.3.1"
+    js-yaml "~3.7.0"
+    mkdirp "~0.5.1"
+    sax "~1.2.1"
+    whet.extend "~0.9.9"
 
 tapable@^0.2.5, tapable@~0.2.5:
   version "0.2.6"
@@ -2918,6 +3543,20 @@ uid-number@~0.0.6:
   version "0.0.6"
   resolved "http://sr-npm-registry:5001/uid-number/-/uid-number-0.0.6/0ea10e8035e8eb5b8e4449f06da1c730663baa81.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
 
+uniq@^1.0.1:
+  version "1.0.1"
+  resolved "http://sr-npm-registry:5001/uniq/-/uniq-1.0.1/b31c5ae8254844a3a8281541ce2b04b865a734ff.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
+
+uniqid@^4.0.0:
+  version "4.1.1"
+  resolved "http://sr-npm-registry:5001/uniqid/-/uniqid-4.1.1/89220ddf6b751ae52b5f72484863528596bb84c1.tgz#89220ddf6b751ae52b5f72484863528596bb84c1"
+  dependencies:
+    macaddress "^0.2.8"
+
+uniqs@^2.0.0:
+  version "2.0.0"
+  resolved "http://sr-npm-registry:5001/uniqs/-/uniqs-2.0.0/ffede4b36b25290696e6e165d4a59edb998e6b02.tgz#ffede4b36b25290696e6e165d4a59edb998e6b02"
+
 unpipe@~1.0.0:
   version "1.0.0"
   resolved "http://sr-npm-registry:5001/unpipe/-/unpipe-1.0.0/b2bf4ee8514aae6165b4817829d21b2ef49904ec.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
@@ -2987,6 +3626,10 @@ validate-npm-package-license@^3.0.1:
 vary@~1.1.0:
   version "1.1.0"
   resolved "http://sr-npm-registry:5001/vary/-/vary-1.1.0/e1e5affbbd16ae768dd2674394b9ad3022653140.tgz#e1e5affbbd16ae768dd2674394b9ad3022653140"
+
+vendors@^1.0.0:
+  version "1.0.1"
+  resolved "http://sr-npm-registry:5001/vendors/-/vendors-1.0.1/37ad73c8ee417fb3d580e785312307d274847f22.tgz#37ad73c8ee417fb3d580e785312307d274847f22"
 
 verror@1.3.6:
   version "1.3.6"
@@ -3086,6 +3729,14 @@ websocket-driver@>=0.5.1:
 websocket-extensions@>=0.1.1:
   version "0.1.1"
   resolved "http://sr-npm-registry:5001/websocket-extensions/-/websocket-extensions-0.1.1/76899499c184b6ef754377c2dbb0cd6cb55d29e7.tgz#76899499c184b6ef754377c2dbb0cd6cb55d29e7"
+
+when@~3.6.x:
+  version "3.6.4"
+  resolved "http://sr-npm-registry:5001/when/-/when-3.6.4/473b517ec159e2b85005497a13983f095412e34e.tgz#473b517ec159e2b85005497a13983f095412e34e"
+
+whet.extend@~0.9.9:
+  version "0.9.9"
+  resolved "http://sr-npm-registry:5001/whet.extend/-/whet.extend-0.9.9/f877d5bf648c97e5aa542fadc16d6a259b9c11a1.tgz#f877d5bf648c97e5aa542fadc16d6a259b9c11a1"
 
 which-module@^1.0.0:
   version "1.0.0"

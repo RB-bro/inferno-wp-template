@@ -1,6 +1,8 @@
 import Inferno from 'inferno'
 import Component from 'inferno-component'
 
+import styles from './styles/main.styl'
+
 class Example extends Component ::
   constructor (props) ::
     super(props)

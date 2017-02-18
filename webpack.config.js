@@ -34,6 +34,10 @@ const rules = [
       presets: ['jsy'],
       plugins: ['inferno']
     }
+  },
+  {
+    test: /\.styl$/,
+    use: ["style-loader", "css-loader", "stylus-loader"]
   }
 ]
 
