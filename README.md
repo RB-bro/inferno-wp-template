@@ -1,4 +1,4 @@
-## inferno-slate-compat
+## inferno-webpack-skeleton
 
 
 # notes
